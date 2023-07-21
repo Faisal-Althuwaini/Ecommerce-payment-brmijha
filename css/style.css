@@ -39,3 +39,21 @@
 .main-color-bg {
   background: var(--main-color);
 }
+
+/* Queries  */
+
+@media  screen and (max-width:767px){
+
+  .hero-left {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 250px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+}
