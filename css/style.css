@@ -1,0 +1,41 @@
+:root {
+  --main-bg-color: linear-gradient(90deg, rgba(22,149,180,1) 0%, rgba(77,93,251,1) 100%);
+  --main-color : rgb(22,149,180);
+}
+
+.icon-hover:hover {
+  border-color: var(--main-color) !important;
+  background-color: white !important;
+}
+
+.icon-hover:hover i {
+  color: var(--main-color) !important;
+}
+
+.hero-img {
+  width: 400px;
+}
+
+.hero-left {
+  padding-top: 90px;
+}
+
+.hero-bg {
+  background: var(--main-color) ;
+}
+
+.logo-text {
+  color: var(--main-color);
+}
+
+.products-text {
+  color: var(--main-color);
+}
+
+.main-color {
+  color: var(--main-color);
+}
+
+.main-color-bg {
+  background: var(--main-color);
+}
