@@ -1,7 +1,9 @@
+/* Variables */
 :root {
   --main-bg-color: linear-gradient(90deg, rgba(22,149,180,1) 0%, rgba(77,93,251,1) 100%);
   --main-color : rgb(22,149,180);
 }
+/* Variables // */
 
 .icon-hover:hover {
   border-color: var(--main-color) !important;
@@ -12,6 +14,16 @@
   color: var(--main-color) !important;
 }
 
+/* Navbar */
+
+.logo-text {
+  color: var(--main-color);
+}
+
+/* Navbar // */
+
+/* Hero Section*/
+
 .hero-img {
   width: 400px;
 }
@@ -21,17 +33,22 @@
 }
 
 .hero-bg {
-  background: var(--main-color) ;
+  background: var(--main-bg-color) ;
 }
 
-.logo-text {
-  color: var(--main-color);
-}
+/* Hero Section // */
+
+
+
+/* Products */
 
 .products-text {
   color: var(--main-color);
 }
 
+/* Products // */
+
+/* Changing colors in class */
 .main-color {
   color: var(--main-color);
 }
@@ -39,6 +56,9 @@
 .main-color-bg {
   background: var(--main-color);
 }
+
+/* Changing colors in class // */
+
 
 /* Queries  */
 
