@@ -16,20 +16,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));// we need to register a parser, to parse the incoming request body !
 
 
-// test route
-
-app.post('/test', (req,res) => {
-  console.log(req.body.priceId[0]);
-  res.send('TEST')
-})
-
-app.get('/',(req,res) => {
-  res.render("index")
-})
 
 
 // Local domain
-const YOUR_DOMAIN = 'https://faisal-althuwaini.github.io/Ecommerce-payment-brmijha';
+const YOUR_DOMAIN = 'http://localhost:3000';
 
 // Route to handle payment
 app.post('/create-checkout-session', async (req, res) => {
