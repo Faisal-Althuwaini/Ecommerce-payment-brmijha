@@ -16,7 +16,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));// we need to register a parser, to parse the incoming request body !
 
 
-
+app.get("/", (req,res) => {
+  res.sendFile("success.html", { root: "docs"})
+})
 
 // Local domain
 const YOUR_DOMAIN = 'http://localhost:3000';
