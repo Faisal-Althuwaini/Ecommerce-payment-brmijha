@@ -13,6 +13,7 @@ app.use(express.json())
 app.use(express.static('docs'));
 
 app.use(bodyParser.json());
+
 app.use(bodyParser.urlencoded({extended: false}));// we need to register a parser, to parse the incoming request body !
 
 app.get("/", (req,res) => {
@@ -28,10 +29,10 @@ app.get("/success.html", (req,res) => {
 
 
 // Local domain
-const YOUR_DOMAIN = 'https://faisal-althuwaini.github.io/Ecommerce-payment-brmijha';
+const YOUR_DOMAIN = 'https://localhost:3000';
 
 // Route to handle payment
-app.post('https://faisal-althuwaini.github.io/Ecommerce-payment-brmijha/create-checkout-session', async (req, res) => {
+app.post('/create-checkout-session', async (req, res) => {
 
 
   let priceId = req.body.priceId
