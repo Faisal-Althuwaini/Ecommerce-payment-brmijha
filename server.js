@@ -15,8 +15,11 @@ app.use(express.static('docs'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));// we need to register a parser, to parse the incoming request body !
 
-
 app.get("/", (req,res) => {
+  res.sendFile("index.html", { root: "docs"})
+})
+
+app.get("/success.html", (req,res) => {
   res.sendFile("success.html", { root: "docs"})
 })
 
