@@ -10,7 +10,7 @@ const bodyParser = require('body-parser');
 // Parse JSON bodies (as sent by the client)
 app.use(express.json())
 
-app.use(express.static('public'));
+app.use(express.static('docs'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));// we need to register a parser, to parse the incoming request body !
