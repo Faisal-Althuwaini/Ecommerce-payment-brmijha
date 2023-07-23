@@ -23,7 +23,7 @@ app.get("/success.html", (req,res) => {
   res.sendFile("success.html", { root: "docs"})
 })
 
-// Local domain
+//  domain
 const YOUR_DOMAIN = 'https://faisal-althuwaini.github.io/';
 
 // Route to handle payment
