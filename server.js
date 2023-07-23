@@ -23,11 +23,15 @@ app.get("/success.html", (req,res) => {
   res.sendFile("success.html", { root: "docs"})
 })
 
+
+
+
+
 // Local domain
-const YOUR_DOMAIN = 'http://localhost:3000';
+const YOUR_DOMAIN = 'https://faisal-althuwaini.github.io/Ecommerce-payment-brmijha';
 
 // Route to handle payment
-app.post('/create-checkout-session', async (req, res) => {
+app.post('https://faisal-althuwaini.github.io/Ecommerce-payment-brmijha/create-checkout-session', async (req, res) => {
 
 
   let priceId = req.body.priceId
