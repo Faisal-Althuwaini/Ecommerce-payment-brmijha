@@ -27,7 +27,7 @@ app.get("/success.html", (req,res) => {
 const YOUR_DOMAIN = 'https://faisal-althuwaini.github.io/';
 
 // Route to handle payment
-app.post('/create-checkout-session', async (req, res) => {
+app.post('faisal-althuwaini.github.io/create-checkout-session', async (req, res) => {
 
 
   let priceId = req.body.priceId
