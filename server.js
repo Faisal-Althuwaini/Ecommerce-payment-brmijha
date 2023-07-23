@@ -24,12 +24,14 @@ app.get("/success.html", (req,res) => {
   res.sendFile("success.html", { root: "docs"})
 })
 
-
+app.get("/cancel.html", (req,res) => {
+  res.sendFile("cancel.html", { root: "docs"})
+})
 
 
 
 // Local domain
-const YOUR_DOMAIN = 'https://localhost:3000';
+const YOUR_DOMAIN = 'http://localhost:3000';
 
 // Route to handle payment
 app.post('/create-checkout-session', async (req, res) => {
