@@ -24,7 +24,7 @@ app.get("/success.html", (req,res) => {
 })
 
 // Local domain
-const YOUR_DOMAIN = 'http://localhost:3000';
+const YOUR_DOMAIN = 'https://faisal-althuwaini.github.io/';
 
 // Route to handle payment
 app.post('/create-checkout-session', async (req, res) => {
