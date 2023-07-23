@@ -15,13 +15,8 @@ app.use(express.static('public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));// we need to register a parser, to parse the incoming request body !
 
+// app.set('view engine', 'ejs');
 
-// test route
-
-app.post('/test', (req,res) => {
-  console.log(req.body.priceId[0]);
-  res.send('TEST')
-})
 
 app.get('/',(req,res) => {
   res.render("index")
