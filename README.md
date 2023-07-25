@@ -1,5 +1,5 @@
 ## Ecommerce-payment-brmijha
-This is our submission for Implement a payment system task
+This is our submission for Implement a payment system task using Stripe
 
 # Landing page
 ![Preview_](https://github.com/Faisal-Althuwaini/Ecommerce-payment-brmijha/assets/79035492/3f0632db-175e-4ae9-80be-56dce9142fa1)
